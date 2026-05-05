@@ -1,5 +1,3 @@
----
-
 # Linear Regression — Auto MPG
 
 This notebook applies linear regression to predict car fuel efficiency using the Auto MPG dataset.
@@ -31,5 +29,3 @@ The **Auto MPG dataset** contains information on cars from the 1970s and 1980s. 
 ## Usage
 
 Run the notebook from top to bottom. Make sure `auto-mpg.csv` is in the same directory as the notebook before running.
-
----
