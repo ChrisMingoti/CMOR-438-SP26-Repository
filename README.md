@@ -20,9 +20,8 @@ This repository documents my work for CMOR 438 at Rice University. It includes a
 ├── notebooks/
 │   ├── supervised_learning/
 │   └── unsupervised_learning/
-├── tests/
-│   └── unit/
-├── examples/
+├── tests/unit
+├── examples
 ├── requirements.txt
 └── README.md
 ```
