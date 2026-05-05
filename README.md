@@ -21,7 +21,7 @@ This repository documents my work for CMOR 438 at Rice University. It includes a
 │   ├── supervised_learning/
 │   └── unsupervised_learning/
 ├── tests/unit
-├── examples
+├── pyproject.toml
 ├── requirements.txt
 └── README.md
 ```
