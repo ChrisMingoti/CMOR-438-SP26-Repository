@@ -1,15 +1,16 @@
 # DBSCAN — Mall Customer Segmentation
 
-This notebook applies DBSCAN (Density-Based Spatial Clustering of Applications with Noise) to the Mall Customer dataset to identify natural groupings of customers based on their spending behavior.
+This notebook applies the `ml_pack` implementation of DBSCAN to identify natural groupings and outliers in the Mall Customer dataset. The algorithm is built entirely from scratch in `ml_pack` using NumPy, with sklearn used only for preprocessing.
 
 ## Contents
 
 * Overview of DBSCAN and how it differs from K-Means
 * Data loading and exploration
 * Feature selection and standardization
-* Applying DBSCAN and interpreting cluster labels
+* Applying DBSCAN and interpreting cluster labels using `ml_pack.DBSCAN`
 * Visualization of clusters and outliers
 * Analysis of how epsilon affects clustering results
+* Outlier profile analysis
 
 ## Data
 
@@ -20,9 +21,10 @@ The **Mall Customer dataset** contains information on 200 customers including th
 * Python 3.x
 * NumPy
 * Pandas
-* scikit-learn
+* scikit-learn (preprocessing only)
 * Matplotlib
 * Seaborn
+* ml_pack (see main README for installation)
 
 ## Usage
 
