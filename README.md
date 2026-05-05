@@ -10,6 +10,7 @@ This repository documents my work for CMOR 438 at Rice University. It includes a
 
 ## Repository Structure
 
+```
 .
 ├── src/
 │   └── ml_pack/
@@ -24,6 +25,7 @@ This repository documents my work for CMOR 438 at Rice University. It includes a
 ├── examples/
 ├── requirements.txt
 └── README.md
+```
 
 * **`src/ml_pack/`** — The core package. Each algorithm is written from scratch with a focus on understanding the underlying math rather than wrapping existing libraries.
 
