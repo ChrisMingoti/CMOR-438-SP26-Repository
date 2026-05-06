@@ -3,3 +3,4 @@ from .neural_network import NeuralNetwork
 from .knn import KNN
 from .decision_tree import DecisionTree
 from .logistic_regression import LogisticRegression
+from .ensemble_methods import RandomForest, GradientBoosting
