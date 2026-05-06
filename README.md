@@ -10,31 +10,37 @@ This repository documents my work for CMOR 438 at Rice University. It includes a
 
 ## Repository Structure
 
-```
 .
 ├── src/
 │   └── ml_pack/
-│       ├── supervised_learning/
-│       ├── unsupervised_learning/
+│       ├── Supervised_Learning/
+│       ├── Unsupervised_Learning/
 │       └── processing/
 ├── examples/
-│   ├── supervised_learning/
-│   └── unsupervised_learning/
+│   ├── Supervised_Learning/
+│   │   ├── Linear_Regression/
+│   │   ├── Logistic_Regression/
+│   │   ├── Neural_Networks/
+│   │   ├── KNN/
+│   │   ├── Decision_Trees/
+│   │   ├── Ensemble_Methods/
+│   │   └── Naive_Bayes/
+│   └── Unsupervised_Learning/
+│       ├── DBSCAN/
+│       ├── KMeans/
+│       ├── PCA/
+│       └── tSNE/
 ├── tests/unit
 ├── pyproject.toml
-├── requirements.txt
 └── README.md
-```
 
 * **`src/ml_pack/`** — The core package. Each algorithm is written from scratch with a focus on understanding the underlying math rather than wrapping existing libraries.
 
-* **`notebooks/`** — One notebook per algorithm, covering data exploration, implementation walkthroughs, and model evaluation.
+* **`examples/`** — One notebook per algorithm covering data exploration, implementation walkthroughs, and model evaluation using ml_pack.
 
 * **`tests/unit/`** — Unit tests for every implemented method using pytest.
 
-* **`examples/`** — Notebooks showing ml_pack used end-to-end on real datasets.
-
-* **`requirements.txt`** — All packages needed to run this repo.
+* **`pyproject.toml`** — Project configuration and package installation settings.
 
 ---
 
@@ -42,18 +48,27 @@ This repository documents my work for CMOR 438 at Rice University. It includes a
 
 ### Supervised Learning
 
-* Linear Regression
+* Linear Regression (OLS, Ridge, Gradient Descent)
 * Logistic Regression
 * k-Nearest Neighbors (kNN)
-* Decision Trees
-* Ensemble Methods
-* Neural Networks
+* Decision Trees (CART with Gini impurity)
+* Ensemble Methods (Random Forest, Gradient Boosting)
+* Neural Networks (Feedforward MLP with backpropagation)
+* Naïve Bayes (Gaussian)
 
 ### Unsupervised Learning
 
 * K-Means Clustering
 * DBSCAN
 * Principal Component Analysis (PCA)
+* t-SNE
+
+### Data Processing Utilities
+
+* StandardScaler
+* train_test_split
+* Regression metrics (MSE, RMSE, MAE, R²)
+* Classification metrics (accuracy, confusion matrix)
 
 ---
 
