@@ -4,6 +4,7 @@ from .Supervised_Learning.knn import KNN
 from .Supervised_Learning.decision_tree import DecisionTree
 from .Supervised_Learning.logistic_regression import LogisticRegression
 from .Supervised_Learning.ensemble_methods import RandomForest, GradientBoosting
+from .Supervised_Learning.naive_bayes import GaussianNaiveBayes
 from .Unsupervised_Learning.dbscan import DBSCAN
 from .Unsupervised_Learning.kmeans import KMeans
 from .Unsupervised_Learning.pca import PCA
